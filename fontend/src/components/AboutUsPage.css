@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/apricot-2');
+@import url('https://fonts.cdnfonts.com/css/cherio');
+
+.info-section {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.info-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+}
+
+.info-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.info-text h2 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: #7b3f00;
+    font-family: 'Apricot', sans-serif;
+}
+
+.info-text p {
+    font-size: 30px;
+    line-height: 1.6;
+    font-family: 'Cherio', sans-serif;
+}
+
+.info-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.brown-container {
+    background-color: #7b3f00;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.brown-container-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.brown-container-logo {
+    font-family: 'Cherio', sans-serif;
+    font-size: 36px;
+    text-align: left;
+    flex: 1;
+}
+
+.brown-container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1;
+}
+
+.brown-container-text p {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+}

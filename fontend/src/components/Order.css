@@ -1,0 +1,36 @@
+.order-confirmation-page {
+    padding: 20px;
+    font-family: 'Arial, sans-serif';
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.order-confirmation-page h1 {
+    color: #7b3f00;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.order-confirmation-page p {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.continue-shopping-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #7b3f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.continue-shopping-button:hover {
+    background-color: #5a2c00;
+}
